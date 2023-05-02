@@ -1,0 +1,94 @@
+@import '~style/helpers';
+
+.norepeat, .repeat{
+	padding: 0.5em;
+	font-size: 2em;
+	transition: ease-in-out, 0.5s;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.norepeat{
+	color: red;
+	border: none;
+	opacity:70%;
+}
+.repeat{
+	color: green;
+	border: 1px solid black;
+	border-radius: 2px;
+	opacity:100%;
+}
+
+
+.norepeat:hover {
+	opacity:90%;
+}
+
+input {
+	padding: 12px 12px;
+	margin: 8px 0;
+	border: none;
+	border-bottom: 4px solid black;
+	border-radius: 3px;
+	opacity: 80%;
+	width: 150px;
+	transition: ease-in-out, .5s ease-in-out;
+	text-align: center;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input:hover {
+	opacity:100%;
+}
+
+input:focus
+{
+	width: 269px;
+	opacity: 100%;
+}
+
+select {
+	padding: 12px 12px;
+	margin: 8px 0;
+	border: none;
+	border-bottom: 4px solid black;
+	border-radius: 3px;
+	opacity: 70%;
+	width: 300px;
+	transition: ease-in-out, .5s ease-in-out;
+	text-align: center;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div[id=entries] {
+	max-height:275px;
+	overflow-y: scroll;
+}
+
+select[id=hour] {
+	width: 100px;
+}
+
+select[id=minute] {
+	width: 100px;
+}
+
+select:hover {
+	opacity: 100%;
+}
+
+select:focus {
+	opacity: 80%;
+}
+
+Button {
+	padding: 12px 12px;
+	border:none;
+	border-radius:3px;
+	opacity:70%;
+	transition: ease-in-out, .5s;
+}
+
+Button:hover
+{
+	opacity: 100%;
+}

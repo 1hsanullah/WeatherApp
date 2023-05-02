@@ -1,0 +1,50 @@
+@import '~style/helpers';
+
+
+.tempsTable{
+	flex-direction: unset;
+	align-content: center;
+	width: fit-content;
+	font-size: 0.5em;
+	margin: 4em auto 4em auto;
+	padding: 1em;
+	color:black;
+}
+.tempsTable td, tr{
+	padding:0.2em;
+	font-size: 2.2em;
+	border-radius:4px;
+	color:rgb(255, 255, 255);
+	filter:drop-shadow(1px 1px #090909);
+}
+.tempsTable td{
+	background-color: rgba(255, 255, 255, 0.4);
+	font-size: 3.0em;
+	border-radius:4px;
+	color:black;
+	
+}
+.temperature {
+	flex: 2;
+	margin-top: 0;
+	font-weight: 300;
+	letter-spacing: -0.1em;
+	color:black;
+}
+.filled:after {
+	margin: 0 0 0 0.4em;
+	font-size: 0.5em;
+	font-weight: 100;
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: top;
+}
+.kelvin:after{
+	content: "K";
+}
+.celsius:after{
+	content: "°C";
+}
+.fahrenheit:after{
+	content: "°F";
+}
