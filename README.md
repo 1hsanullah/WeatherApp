@@ -48,4 +48,3 @@ npm run dev
 
 > This runs a full webserver for the weather application.
 
-(This README.md was based off of the README.md at https://github.com/Juan-Alvarado/weatherapp-boilerplate.git weather-app)
